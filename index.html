@@ -16,10 +16,21 @@
   <p>
     One of the biggest part of this project was using features from javafx. We imported labels and shapes from javafx. 
     We made use of the EventHandler interface for buttons as well as mouse events.  A method called fadeTransition was used to
-    make the letters disappear and reappear.
+    make the letters disappear and reappear. We used a list to assign letters to each tile.  Randomization is used to shuffle the tiles.
    
     There were 3 counters used.  Booleans and else if statements were used in determining how well a player did.  
     We created mulitple classes.  We also created helper methods. For loops were used quite a bit as well.  
   </p>
+  <h2> Challenges/New Concepts </h2>
+  <p>One of the biggest challenges was figuring out how to start. At first we had planned to use 2d arrays for the tiles, but after some 
+  testing and research we changed our approach to creating multiple tile objects from our Tile class and setting their position with 
+  a for loop and formula. We learned so many things about javafx and since we did not use scenebuilder we learned how to
+    place objects with code as well as linking mouse clicks and buttons with code. </p>
+  <p>The biggest challenge we had was creating the restart button.  It took us a while to figure out to make the button work.  After that 
+  trying to make the game reset took a long time.  We were able to create a new board, but 
+    the old one did not reset.  Since the tiles were transparent the old and new letters overlapped making it impoosible to read.
+  Since the letters and tiles were in different classes we could not figure out how to make them both disappear. Eventually we 
+  just made the tiles non transparent by adding a rectagle right before a new board was generated and it fixed the problem.</p>
+  
 </body>
 </html>
